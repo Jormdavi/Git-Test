@@ -9,6 +9,13 @@ int sum(int num){
   return number;
 
 }
+int pro(int var){
+
+  int val = var * 2;
+
+  return val;
+
+}
 
 int main(){
 
@@ -20,8 +27,8 @@ int main(){
   cout << endl;
   cout << "Thanks" << endl;
 
-  int num2;
-  num2 = sum(num);
-  cout << "the sum is " << num2 << endl;
+  cout << "the sum is " << sum(num) << endl;
+
+  cout << "The sum * 2 is " << pro(sum(num)) << endl;
 
 }
